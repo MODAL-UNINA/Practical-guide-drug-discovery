@@ -31,12 +31,14 @@ To ensure compatibility and reproducibility, we recommend using Conda to manage 
     ```bash
     conda create --name qsar_env 
     conda activate qsar_env
-
+    ```
+    
     **Step 2**: Install dependencies
     Once the environment is activated, install all required packages from the requirements.txt file:
     
     ```bash
     conda install -c conda-forge --file requirements.txt
+    ```
 
 
 
